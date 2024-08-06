@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: form;
+    color: white;
+}
+
+@font-face {
+    font-family: form;
+    src: url(./font/KFOmCnqEu92Fr1Mu4mxK.woff2);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.cta {
+    width: 80px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta a {
+    color: white;
+}
+
+/*header*/
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/news-hero-bg.webp);
+    background-size: cover;
+}
+
+.top {
+    width: 400px;
+    height: 70px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.mainform {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.515);
+}
+
+
+/* top */
+
+.mainform_top {
+    width: 80%;
+    height: 30px;
+    background-color: #3B5998;
+    color: white;
+    margin: 20px 0;
+    padding: 10px 20px;
+
+}
+
+.mainform_top--top {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+
+.mainform_top--top img {
+    width: 25px;
+}
+
+/* top */
+
+
+/* center */
+
+
+.mainform_center {
+    width: 80%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    margin: 20px 0;
+    padding: 10px 20px;
+
+}
+
+
+.mainform_top--center {
+
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.mainform_top--center img {
+    width: 25px;
+}
+
+
+/* center */
+
+
+/* bottom */
+
+.mainform_bottom {
+    width: 80%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    margin: 20px 0;
+    padding: 10px 20px;
+
+}
+
+
+.mainform_top--bottom {
+
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.mainform_top--bottom img {
+    width: 25px;
+}
+
+/* bottom */
+
+
+/*middle*/
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    text-align: center;
+}
+
+.middle input {
+    width: 320px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    margin: 12px 0;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:focus {
+    background-color: rgba(255, 255, 255, 0.481);
+    color: black;
+}
+
+/*middle*/
+
+/*bottom*/
+
+.bottom a {
+    width: 320px;
+}
+
+.bottom input {
+    width: 360px;
+    background-color: orangered;
+    color: white;
+}
+
+
+/*bottom*/
